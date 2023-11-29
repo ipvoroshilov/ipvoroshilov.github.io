@@ -1,0 +1,42 @@
+.top_block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.myphoto{
+    padding-right: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px 15px 0px;
+}
+
+.main{
+    background: url(../images/fon.jpg);
+}
+
+nav a {
+    text-decoration: wavy;
+    color: black;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    background: rgb(234, 240, 243);
+}
+
+nav a:hover {
+    text-decoration: solid;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    background: rgb(146, 196, 222);
+    transition: 0.5s;
+}
+
+#container{
+    background-color: azure;
+    border-style: outset;
+    padding: 50px;
+    max-width: 600px;
+    margin: auto;
+}
