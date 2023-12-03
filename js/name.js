@@ -1,9 +1,9 @@
 function userName(){
     let name = String(prompt("Введите Ваше имя"));
-    if (name == ""){
-        alert("Привет, Незнакомец");  
+    if (name != ""){
+        alert("Привет, "+name)
     }
     else {
-        alert("Привет, "+name);
+        alert("Привет, Незнакомец");
     }
 }
